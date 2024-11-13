@@ -1,0 +1,14 @@
+server:
+  port: 9192
+
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://Localhost:3306/ubudehe_management_system_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      format_sql: true
